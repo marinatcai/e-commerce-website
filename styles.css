@@ -1,0 +1,32 @@
+:root {
+    --text-color: #3f4241;
+    --link-color: #9449f7;
+    --background-color: #fad400; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+nav .div {
+    display: inline-block;
+}
+
+nav img {
+    height: 50px;
+    border: transparent;
+    border-radius: 15px;
+}
